@@ -19,8 +19,8 @@ This project presents a Python-based solution for detecting anomalies within con
 
 **Clone the repository:**
    ```bash
-   git clone https://github.com/ardra1902/AI-Video-Highlighter
-   cd AI-Video-Highlighter
+   git clone [https://github.com/ardra1902/Data-Stream-Anomaly-Detection]
+   cd Data-Stream-Anomaly-Detection
 ```
 
 
