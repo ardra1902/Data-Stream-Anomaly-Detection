@@ -1,0 +1,8 @@
+cython
+pandas
+plotly
+scikit-learn
+dash
+influxdb
+anomaly-detection
+prophet
