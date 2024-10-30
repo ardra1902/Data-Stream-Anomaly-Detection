@@ -1,19 +1,19 @@
 
 # Data Stream Anomaly Detection
 
-This project presents a Python-based solution for detecting anomalies within continuous data streams, focusing particularly on financial and system metrics. By employing the Exponential Moving Averages (EMA) statistical method, the script identifies unusual patterns, thus facilitating effective anomaly detection.
-
+This project presents a Python-based Streamlit app for detecting anomalies in continuous data streams, especially in scenarios like financial and cybersecurity data monitoring. The application utilizes the Isolation Forest algorithm to identify unusual patterns in real time, making it a robust tool for proactive anomaly detection.
 <!-- ![App Screenshot](https://raw.githubusercontent.com/ardra1902/AI-Video-Highlighter/main/AIVSS.png) -->
 
 ## Features
 
--Adaptive Thresholding: Automatically modifies thresholds according to recent data points, improving detection precision.
+-Adaptive Anomaly Detection: Uses Isolation Forest to identify outliers in data streams dynamically.
 
--Anomaly Detection Techniques: Implements the Exponential Moving Average (EMA) for reliable identification of anomalies.
+-Data Stream Simulation: Generates synthetic data points to mimic a real-world data stream with elements of regular patterns, seasonal variations, and noise.
 
--Data Stream Simulation: Creates a simulated stream of floating-point numbers, introducing aspects like concept drift and seasonal variations.
+-Real-Time Visualization: Displays the data stream and flags anomalies in real-time, updating every second for a live monitoring experience.
 
--Real-time Data Visualization: Offers a live display of the data stream alongside any identified anomalies.
+-User-Configurable Parameters: Allows users to adjust the detection window size and contamination rate for better detection precision.
+
 ### Installation
 
 
@@ -22,6 +22,23 @@ This project presents a Python-based solution for detecting anomalies within con
    git clone https://github.com/ardra1902/Data-Stream-Anomaly-Detection
    cd Data-Stream-Anomaly-Detection
 ```
+
+
+
+
+## Usage
+
+1.Run the Streamlit App:
+```bash
+  streamlit run app.py
+
+```
+Configure Parameters:
+
+2.Adjust the Window Size and Contamination Rate using the sidebar sliders for more accurate anomaly detection.
+View Real-Time Results:
+
+3.Observe the data stream's live plot, with detected anomalies highlighted in red.
 
 
 ## Requirements
