@@ -1,8 +1,4 @@
-cython
-pandas
-plotly
+streamlit
+numpy
 scikit-learn
-dash
-influxdb
-anomaly-detection
-prophet
+matplotlib
